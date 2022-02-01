@@ -8,7 +8,7 @@ text-align: center;
 }
 
 #container {
-    background-color:#E1EFB0;
+    background-color:#CFE795;
     width: 1500px;
     margin: 10px auto;
     border-radius: 20px;
@@ -24,21 +24,19 @@ header {
     background-color: #FAF6B8;
     margin: 20px auto;
     width: 840px;
-    border-radius: 20px;
+    border-radius:20px;
  
 }
 
 header img {
     display: block;
     margin: 20px auto;
-    width: 90%;
+    width: 80%;
 }
 
-
-
 nav{
-    background-color:#FAF6B8;
-    padding-top: 10px;
+   
+    padding-top:20px;
     text-align: center;
     width:800px;
     margin:auto;
@@ -47,19 +45,21 @@ nav{
 }
 nav a{
     display:inline-block;
-    background-color:#FAF6B8;
+    background-color:#CFE795;
     height:40px;
-    width: 200px;
+    width: 220px;
     line-height:40px ;
-    font-size:1.4em;
+    font-size:25px;
+    font-weight: bold;
     color: #92A62E;
     text-decoration:none;
-    border-radius:10px 10px 0 0;
-    margin: 0 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:20px 20px 0 0;
+    
+    font-Family: 'Cinzel', Cursive;
+    
 }
 nav a:hover{
-    background-color: #CFE795;
+    background-color: #FAF6B8;
     color:#b8aa6f;
     
     }
@@ -71,19 +71,20 @@ main {
     padding: 20px;
     border:0px solid #e0f0bc;
     line-height:40px ;
-    font-size: 1.4em;
-    color: #484349;
+    color:#282e09;
     text-decoration:lightblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-family: "fauna",serif;
+    font: 1.5em ;
     border-radius: 20px;
 }
 
 main h2{
     text-align: center;
     color: #b9a963;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-Family: 'Cinzel', Cursive;
+    font-Size: 46px;
     font-weight: bold; 
-    font-size: 1em;
+   
     
 }
 main img {
@@ -102,9 +103,8 @@ footer{
     text-align:center;
     margin-top: 20px;
     border-radius: 0 0 20px 20px;
-    font-family: fantasy;
-    font-weight: bold; 
-    font-size: 2em;
+    font-Family: 'Cinzel', Cursive;
+  
 }
 
 a:link {
@@ -114,6 +114,8 @@ a:link {
   }
 
 .active{
-    background-color: #CFE795;
+    background-color: #FAF6B8;
     color:#b8aa6f;
+    
 }
+
