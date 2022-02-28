@@ -1,0 +1,362 @@
+/* Global Styles */
+body {
+    background-color: #091100;
+    font-family: 'hooligan-jf', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: #F2E0BD;
+    font-size: 20px;
+}
+
+header {
+    background-image: url('../images/header.jpeg');
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px dotted #dcdc16;
+}
+
+#container {
+    background-color: #091100;
+    border-radius: 20px;
+}
+
+h4 {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'obviously-extended', sans-serif;
+    font-weight: 200;
+    color: #ffda89;
+    text-shadow:
+        0 0 5px #F2E0BD,
+        0 0 20px #dc7916;
+}
+
+img {
+    display: block;
+    width: 70%;
+    border-radius: 20px;
+    margin: 20px auto;
+    filter: contrast(165%) drop-shadow(5px 5px 5px #dcdc16);
+}
+
+.neon {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 200;
+    font-family: "carol-gothic", sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px rgb(0, 255, 187),
+        0 0 80px #0ff,
+        0 0 90px rgb(0, 255, 179),
+        0 0 100px #0ff,
+        0 0 150px #0ff;
+}
+
+header h2,
+h3 {
+    color: #DCDC16;
+    text-shadow: 4px 4px 4px #0a080a;
+    text-align: center;
+    font-family: 'hooligan-jf', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+    .nav li a {
+        float: none;
+        width: 100%;
+    }
+}
+
+#container {
+    background-color: #091100;
+    margin: 20px;
+}
+
+header {
+    background-image: url('../images/header.jpeg');
+    background-size: cover;
+}
+
+header h2,
+h3 {
+    color: #DCDC16;
+    text-shadow: 4px 4px 4px #dc7916;
+    text-align: center;
+    font-family: 'hooligan-jf', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+
+}
+
+nav {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'scriptorama-markdown-jf', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav li {
+    float: center;
+}
+
+nav li a {
+    display: inline-block;
+    background-color: #091100;
+    color: #ffda89;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'scriptorama-markdown-jf', sans-serif;
+    padding: 16px 12px;
+
+}
+
+nav li a:hover {
+    background-color: #9a5834;
+    text-shadow: 2px 2px 2px #8aa46b;
+}
+
+section,
+aside,
+.col,
+footer {
+    background-color: #091100;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #DCDC16;
+    border-radius: 20px;
+}
+
+h2,
+h3 {
+    color: #F2E0BD;
+    text-shadow: 2px 2px 2px #DCDC16;
+    text-align: center;
+    font-family: 'hooligan-jf', sans-serif;
+    font-size: 32px;
+
+}
+
+section img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+aside img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #DCDC16;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #958e97;
+}
+
+
+audio,
+video {
+    display: block;
+    margin: 20px;
+    width: 85%;
+}
+
+#posts {
+    text-align: left;
+    border: 1px dotted #9a5834;
+    border-radius: 20px;
+}
+
+/* Portrait Mobile Styles */
+
+@media (max-aspect-ratio: 1/1) {
+    li {
+        height: 30vh;
+    }
+}
+
+/* Small Mobile Styles */
+
+@media (max-height: 480px) {
+    li {
+        height: 80vh;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+    ul {
+        flex-direction: row;
+    }
+
+    li {
+        height: auto;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        max-height: 75vh;
+        min-width: 0;
+    }
+}
+
+/* Tablet Styles*/
+
+@media(min-width: 768px) {
+    header {
+        padding: 120px;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        float: center;
+
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+
+        height: 20px;
+        line-height: 20px;
+    }
+
+    nav li a:hover {
+        background-color: #9a5834;
+        text-shadow: 2px 2px 2px #8aa46b;
+
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section,
+    aside {
+        width: 100%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+
+
+    /* Desktop Styles*/
+
+    @media(min-width: 1024px) {
+        #container {
+            width: 80%;
+            margin: 20px auto;
+            border: 3px solid #9a5834;
+            border-radius: 20px;
+        }
+
+        header {
+            border-radius: 20px;
+
+        }
+
+        nav {
+            position: relative;
+            float: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 380px;
+
+        }
+
+        nav li a {
+            display: inline-block;
+            background-color: #091100;
+            color: #ffda89;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: auto;
+            border-radius: 20px;
+            font-family: 'scriptorama-markdown-jf', sans-serif;
+        }
+
+        nav li a:hover {
+            background-color: #9a5834;
+            text-shadow: 2px 2px 2px #8aa46b;
+        }
+
+        #lower_flex {
+            display: flex;
+        }
+
+        #posts img {
+            width: 300px;
+        }
+
+        main ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        main li {
+            height: 40vh;
+            flex-grow: 1;
+        }
+
+        main li:last-child {
+            flex-grow: 10;
+        }
+
+        main img {
+            max-height: 100%;
+            min-width: 100%;
+            object-fit: cover;
+            vertical-align: bottom;
+        }
+
+
+        audio,
+        video {
+            display: block;
+            margin: 20px;
+            width: 85%;
+        }
+
+        section img {
+            width: 10%;
+            border-radius: 20px;
+        }
+
+
+    }
+}
