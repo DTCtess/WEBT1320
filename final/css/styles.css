@@ -5,9 +5,14 @@ body {
     font-weight: bolder;
     font-style: normal;
     color: #F2E0BD;
-    font-size: 20px;
 }
 
+body img{
+    width:50%;
+}
+.container2 img {
+    width: 30%;
+}
 header {
     background-image: url('../images/header.jpeg');
     background-size: cover;
@@ -19,6 +24,7 @@ header {
     background-color: #091100;
     border-radius: 20px;
 }
+
 
 h4 {
     font-size: 28px;
@@ -64,7 +70,7 @@ h3 {
     font-family: 'hooligan-jf', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 32px;
+    font-size: 44px;
 }
 
 /* Mobile Styles */
@@ -116,15 +122,15 @@ nav ul {
 }
 
 nav li {
-    float: center;
+    float:inline-start;
 }
 
 nav li a {
     display: inline-block;
     background-color: #091100;
     color: #ffda89;
-    height: 20px;
-    line-height: 20px;
+    height: 40px;
+    line-height: 40px;
     text-align: right;
     text-decoration: none;
     border-radius: 20px;
@@ -160,7 +166,7 @@ h3 {
 }
 
 section img {
-    width: 30%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -238,7 +244,7 @@ video {
     }
 
     nav {
-        float: center;
+        float: inherit;
 
     }
 
@@ -270,7 +276,7 @@ video {
     aside img {
         width: 50%;
     }
-
+   
 
 
     /* Desktop Styles*/
@@ -290,7 +296,7 @@ video {
 
         nav {
             position: relative;
-            float: center;
+            float: inherit;
             margin-left: auto;
             margin-right: auto;
             width: 380px;
@@ -301,8 +307,8 @@ video {
             display: inline-block;
             background-color: #091100;
             color: #ffda89;
-            height: 20px;
-            line-height: 20px;
+            height: 40px;
+            line-height: 40px;
             text-align: center;
             text-decoration: none;
             margin: auto;
@@ -352,11 +358,7 @@ video {
             width: 85%;
         }
 
-        section img {
-            width: 10%;
-            border-radius: 20px;
-        }
-
+        
 
     }
 }
