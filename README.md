@@ -8,5 +8,6 @@
 <li><a href="project2/index.html" target="_blank">project 2 </a></li>
 <li><a href="project3/index.html" target="_blank">project 3 </a></li>
 <li><a href="project4/index.html" target="_blank">project 4 </a></li>
+<li><a href="final/index.html" target="_blank">FINAL</a></li>
   
 </ul>
